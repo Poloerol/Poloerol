@@ -1,0 +1,24 @@
+﻿## Visual Studio ve .NET için Temel .gitignore ##
+
+# Derleme çıktıları
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio ayar dosyaları
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# NuGet paketleri
+packages/
+*.nupkg
+
+# EXE ve DLL'ler
+*.exe
+*.dll
+*.pdb
+
+# Diğer
+*.cache
+*.log
